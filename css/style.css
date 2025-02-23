@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 15px;
+    color: #343a40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin: 0 20px auto;
+    }
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: rgba(52, 58, 64, 0.7);
+}
+
+#hint {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #007bff;
+    font-weight: 600;
+}
+
+#forcaCanvas {
+    display: block;
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    aspect-ratio: 1;
+}
+
+.word-display {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#message {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#restartBtn {
+    background: #007bff;
+    color: white;
+    font-size: 14px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    margin-top: 10px;
+    width: auto;
+    display: inline-block;
+}
+
+#restartBtn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+.letters {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.letters button {
+    background: #6c757d;
+    color: white;
+    font-size: 14px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    width: auto;
+    display: inline-block;
+}
+
+.letters button:hover {
+    background: #545b62;
+    transform: scale(1.1);
+}
+
+.letters button:disabled {
+    background: #adb5bd;
+    cursor: not-allowed;
+}
+
+.letters button.active {
+    background: #28a745;
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+    }
+
+    #hint {
+        font-size: 12px;
+    }
+
+    .word-display {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .letters button {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+
+    #restartBtn {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
