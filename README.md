@@ -13,12 +13,12 @@ Para executar o projeto localmente, siga os passos abaixo:
 1. **Clone o repositório:**
    ```bash
    git clone <URL_DO_REPOSITORIO>
-   cd Jogo-da-Forca
    ```
-
-2. **Abra o arquivo HTML em um navegador:**
-   - Abra o arquivo `index.html` diretamente em seu navegador.
-
+2. Navegue até a pasta do projeto:
+   ```sh
+   cd JogodaForca
+   ```
+   
 ## 📦 Tecnologias usadas:
 
 - HTML
