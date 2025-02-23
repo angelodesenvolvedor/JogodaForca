@@ -12,7 +12,7 @@ Para executar o projeto localmente, siga os passos abaixo:
 
 1. **Clone o repositório:**
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/angelodesenvolvedor/JogodaForca.git
    ```
 2. **Navegue até a pasta do projeto:**
    ```sh
