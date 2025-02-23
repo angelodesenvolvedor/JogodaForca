@@ -30,3 +30,6 @@ Para executar o projeto localmente, siga os passos abaixo:
 1. Adivinhe a letra da palavra oculta clicando nos botões ou pressionando as teclas do teclado.
 2. Use as dicas para ajudá-lo a descobrir a palavra.
 3. Tente adivinhar a palavra antes que suas tentativas acabem!
+
+## 🧑🏽‍💻 Autor
+  * **Angelo Silvano** - *Front-End Developer* - [@angelodesenvolvedor](https://github.com/angelodesenvolvedor)
