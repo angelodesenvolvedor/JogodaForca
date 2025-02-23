@@ -33,3 +33,7 @@ Para executar o projeto localmente, siga os passos abaixo:
 
 ## 🧑🏽‍💻 Autor
   * **Angelo Silvano** - *Front-End Developer* - [@angelodesenvolvedor](https://github.com/angelodesenvolvedor)
+
+## 📄 Licença
+
+* Esse projeto está sob a licença MIT License - acesse os detalhes [LICENSE.md]().   
