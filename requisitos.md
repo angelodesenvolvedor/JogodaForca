@@ -1,7 +1,5 @@
 ## Requisitos Funcionais do Jogo da Forca
 
-Estes são os requisitos funcionais do código do jogo da forca, detalhando o que o sistema deve fazer:
-
 **1. Inicialização do Jogo:**
 
 *   **RF.1.1:** O sistema deve selecionar aleatoriamente uma palavra secreta de uma lista predefinida de palavras.
