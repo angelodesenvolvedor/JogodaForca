@@ -36,4 +36,4 @@ Para executar o projeto localmente, siga os passos abaixo:
 
 ## 📄 Licença
 
-* Esse projeto está sob a licença MIT License - acesse os detalhes [LICENSE.md]().   
+* Esse projeto está sob a licença MIT License - acesse os detalhes [LICENSE.md](https://github.com/angelodesenvolvedor/JogodaForca?tab=License-1-ov-file).   
