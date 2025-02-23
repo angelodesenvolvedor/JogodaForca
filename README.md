@@ -14,7 +14,7 @@ Para executar o projeto localmente, siga os passos abaixo:
    ```bash
    git clone <URL_DO_REPOSITORIO>
    ```
-2. Navegue até a pasta do projeto:
+2. **Navegue até a pasta do projeto:**
    ```sh
    cd JogodaForca
    ```
